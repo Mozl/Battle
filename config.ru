@@ -1,3 +1,2 @@
-require File.dirname(__FILE__) + '/app'
-
+require_relative "./lib/app"
 run Battle
