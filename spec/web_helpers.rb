@@ -5,6 +5,15 @@ def sign_in_and_play
   click_button "Enter name"
 end
 
+def attack
+  click_button('Attack')
+end
+
+def continue
+  click_button('Continue')
+end
+
+
 def attack_player_2(dmg)
   @p2_hp -= dmg
   "#{:name1} attacked #{:name2} for #{dmg} damage!"
