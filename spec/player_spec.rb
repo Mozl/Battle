@@ -8,7 +8,8 @@ describe Player do
 
   feature "returns class name" do
     scenario "tests Player class returns its own name" do
-      expect(subject.name).to eq "Louis"
+      player = Player.new("Louis")
+      expect(player.name).to eq "Louis"
     end
   end
 
